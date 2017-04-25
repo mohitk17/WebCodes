@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+body {
+  font-family: Raleway;
+  background: #E9E5DE;
+}
+
+.box-outer-wrap {
+  position: absolute;
+  width: 350px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 30px 3px rgba(0, 0, 0, 0.5);
+}
+.box-outer-wrap .box-outer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("http://acelebritynews.com/wp-content/uploads/2015/04/Music-Artist-Nicki-Minaj-Beautiful-HD-Wallpapers-12.jpg");
+  background-position: 40% 0%;
+  background-repeat: no-repeat;
+  background-size: 115%;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+.box-outer-wrap .box-outer .box-inner-wrap {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+  padding: 0.76em;
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 1em 1em 1em 1em;
+  background: #fff;
+  box-shadow: 0px 1px 10x 3px rgba(0, 0, 0, 0.9);
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .profile-pic-wrap {
+  position: absolute;
+  bottom: 100%;
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .profile-pic-wrap .profile-pic {
+  width: 75px;
+  height: 75px;
+  margin-bottom: -50%;
+  border-radius: 50%;
+  background: url("http://www.djhotsauce.com/main/wp-content/uploads/2012/04/Nicki-Minaj-Complex-Pic.jpg");
+  background-size: 170%;
+  background-repeat: no-repeat;
+  background-position: 70% 0%;
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .name {
+  margin-top: 1.5em;
+  font-size: 1.5em;
+  transform: scale(1, 1.1);
+  /* W3C */
+  -webkit-transform: scale(1, 1.1);
+  /* Safari and Chrome */
+  -moz-transform: scale(1, 1.1);
+  /* Firefox */
+  -ms-transform: scale(1, 1.1);
+  /* IE 9 */
+  -o-transform: scale(1, 1.1);
+  /* Opera */
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .details {
+  position: relative;
+  width: 100%;
+  height: 25%;
+  margin-bottom: 1.8em;
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .details .fa {
+  color: #999;
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .details .occupation,
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .details .location {
+  font-weight: 750;
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .details span {
+  font-size: 0.7em;
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .details .btn-wrap {
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .details .btn-wrap .btn-default {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: #111;
+  border: 0;
+  border-radius: 9px;
+  font-size: 0.95em;
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .details .btn-wrap .btn-default:before {
+  font-family: FontAwesome;
+  content: '\f067\00a0\00a0';
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .stats .stat-heading {
+  font-size: 0.6em;
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .stats .stat-heading.views:before {
+  font-family: FontAwesome;
+  content: '\f06e\00a0';
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .stats .stat-heading.followers:before {
+  font-family: FontAwesome;
+  content: '\f0c0\00a0';
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .stats .stat-heading.likes:before {
+  font-family: FontAwesome;
+  content: '\f08a\00a0';
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .stats .stat-value {
+  font-size: 1.4em;
+  font-family: Roboto;
+}
+.box-outer-wrap .box-outer .box-inner-wrap .box-inner .stats p {
+  text-align: center;
+  line-height: 65%;
+}
